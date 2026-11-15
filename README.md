@@ -1,78 +1,70 @@
-# Hi, I'm Sravasti Bose 👋
+# Sravasti Bose
 
-### AI/ML Engineer | Agentic AI | Intelligent Systems
+### AI/ML Developer | Agentic AI | MLOps | Intelligent Engineering Systems
 
-Computer Science graduate interested in building intelligent applications, autonomous AI workflows, and reliable machine learning systems.
+Computer Science graduate building Python-based AI systems that combine machine learning, agentic workflows, deterministic verification, and practical engineering constraints.
 
-I enjoy exploring the intersection of AI engineering, backend development, and emerging AI technologies.
-
----
-
-### 🧠 Technical Interests
-
-- Artificial Intelligence & Machine Learning
-- Agentic AI and LLM-powered applications
-- Retrieval-Augmented Generation (RAG)
-- AI Security and Responsible AI
-- MLOps and Model Monitoring
-- Intelligent Engineering Systems
-
-### ⚙️ Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**AI / Machine Learning**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square)
-
-**Generative AI**
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-6A5ACD?style=flat-square)
-
-**Backend & Data**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
-
-**MLOps & Engineering**
-
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+My work focuses on applying AI to concrete problems in software engineering, automotive systems, and equipment reliability—with an emphasis on traceability, reproducibility, testing, and clear limits on what a model can decide.
 
 ---
 
-### 🔬 What I'm Exploring
+## Focus areas
 
-- Building and evaluating autonomous AI agents
-- Secure tool access and authorization for AI applications
-- Open-source AI/ML development
-- Reproducible machine learning workflows
-- Scalable Python applications
+- **Agentic AI & LLM applications:** LangGraph, LangChain, RAG, structured outputs, tool orchestration
+- **Machine learning:** scikit-learn, XGBoost, sequence models, model evaluation, uncertainty quantification
+- **MLOps:** MLflow, reproducible experiments, model tracking, monitoring workflows
+- **Backend & data:** Python, FastAPI, Pydantic, MongoDB, SQLite, SQLAlchemy
+- **Engineering & quality:** Z3, NetworkX, pytest, Ruff, Mypy, Docker, GitHub Actions
 
-### 🌱 Currently Working On
+## Selected projects
 
-- Exploring AI and cybersecurity challenges
-- Improving my open-source development skills
-- Participating in developer communities and hackathons
-- Deepening my understanding of Agentic AI
+### [Equipment Reliability Intelligence & MLOps Platform](https://github.com/sravasti12/Equipment-Reliability-Intelligence-MLOps-Platform)
+An educational, reproducible predictive-maintenance platform exploring remaining-useful-life estimation, survival analysis, anomaly detection, uncertainty quantification, explainability, and maintenance-policy backtesting. Includes NASA C-MAPSS workflows, synthetic fleet data, and MLflow experiment tracking.
+
+**Stack:** Python, scikit-learn, XGBoost, PyTorch/LSTM, MLflow, SHAP, FastAPI, Docker, pytest
+
+### [AutoPLM Twin](https://github.com/sravasti12/AutoPLM-Twin)
+An automotive engineering prototype for migrating synthetic PLM data, validating engineering constraints, comparing product-configuration twins, and supporting evidence-based human review. Combines deterministic verification with bounded agent-assisted mapping and investigation.
+
+**Stack:** Python, FastAPI, MongoDB, Pydantic, NetworkX, LangGraph, Streamlit, pytest
+
+### [OTA Campaign Verifier](https://github.com/sravasti12/OTA-Campaign-Verifier)
+A software-defined-vehicle OTA campaign simulator that uses Z3 to plan compatible ECU update sequences and deterministic fault injection to evaluate recovery and safety invariants. LLMs assist with requirement extraction and evidence explanation; they do not make compatibility or campaign-safety decisions.
+
+**Stack:** Python, Z3, LangGraph, Streamlit, Pydantic, pytest
+
+### [AI Code Review Agent](https://github.com/sravasti12/ai-code-review)
+A multi-agent code-review application for identifying security and code-quality issues, retrieving relevant context, streaming review progress, and proposing fixes. Includes GitHub repository and pull-request review workflows.
+
+**Stack:** Python, FastAPI, LangGraph, LangChain, ChromaDB, React, TypeScript, SQLAlchemy
+
+### [OTA Formal Verification Research Artifact](https://github.com/sravasti12/OTA-Campaign-Verfier-Research-Artifact)
+Research artifact containing TLA+ models, model-checking experiments, a pair abstraction, and software-in-the-loop validation for multi-ECU OTA campaign safety. The repository documents experimental results and their validation limits.
 
 ---
 
-### 🤝 Let's Connect
+## Tools & technologies
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sravasti-bose-56725a279/)
+**Languages:** Python, SQL
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/sravasti12)
+**AI/ML:** scikit-learn, XGBoost, PyTorch, SHAP, MLflow
+
+**LLM applications:** LangGraph, LangChain, RAG, ChromaDB
+
+**Backend & data:** FastAPI, Pydantic, MongoDB, SQLite, SQLAlchemy, NetworkX
+
+**Engineering:** Z3, Docker, GitHub Actions, pytest, Ruff, Mypy
+
+**Frontend:** React, TypeScript, Vite, Streamlit
 
 ---
 
-*Always learning. Always building.*
+## Links
+
+- **Portfolio:** [sravasti-portfolio.vercel.app](https://sravasti-portfolio.vercel.app/)
+- **LinkedIn:** [Sravasti Bose](https://www.linkedin.com/in/sravasti-bose-56725a279/)
+- **GitHub:** [@sravasti12](https://github.com/sravasti12)
+
+---
+
+*Building carefully, testing assumptions, and learning by shipping.*
