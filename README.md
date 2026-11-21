@@ -43,6 +43,19 @@ Research artifact containing TLA+ models, model-checking experiments, a pair abs
 
 ---
 
+## Open-source contributions
+
+### [Sienna-Platform/SiennaSchemas — PR #131](https://github.com/Sienna-Platform/SiennaSchemas/pull/131) · **Merged**
+
+Contributed documentation and Python fixture validation for distinguishing integer and floating-point time-series feature values.
+
+- Documented how JSON numeric token spelling distinguishes integer and floating-point feature values.
+- Added expected feature-kind metadata and exact Python type checks to the fixture validator.
+- Updated a time-series fixture and the Unreleased changelog.
+- Verified that an integer value supplied where a float was expected is reported as a type mismatch.
+
+---
+
 ## Tools & technologies
 
 **Languages:** Python, SQL
