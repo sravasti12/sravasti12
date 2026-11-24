@@ -15,8 +15,20 @@ My work focuses on applying AI to concrete problems in software engineering, aut
 - **MLOps:** MLflow, reproducible experiments, model tracking, monitoring workflows
 - **Backend & data:** Python, FastAPI, Pydantic, MongoDB, SQLite, SQLAlchemy
 - **Engineering & quality:** Z3, NetworkX, pytest, Ruff, Mypy, Docker, GitHub Actions
+- **AI security & IAM:** OAuth 2.0/OIDC, workload identity, delegated authorization, MCP, OPA/Rego
 
 ## Selected projects
+
+### [Agent Identity Gateway](https://github.com/sravasti12/agent-identity-gateway) · [v1.0.0 demonstration release](https://github.com/sravasti12/agent-identity-gateway/releases/tag/v1.0.0)
+
+A security-focused gateway prototype for giving AI workloads distinct non-human identities and enforcing human-to-agent delegated access to protected tools. It combines Keycloak OAuth 2.0/OIDC token exchange, a protected MCP tool server, default-deny OPA/Rego authorization, agent lifecycle governance, and SQLite audit logging with Z3 checks of authorization invariants.
+
+- Verifies human and workload identities separately; constrains delegated credentials by audience, scope, actor relationship, and lifetime.
+- Enforces least-privilege tool access through OPA, with lifecycle/revocation checks, correlated audit events, and defensive regression tests.
+
+**Stack:** Python, FastAPI, Keycloak, OAuth 2.0/OIDC, MCP, OPA/Rego, Z3, SQLite, Docker Compose, pytest, GitHub Actions
+
+**Verification:** 195 Python tests and 22 Rego tests passed locally; hosted CI passed for the portfolio demonstration release. Live Keycloak token exchange and isolated-container acceptance remain outstanding.
 
 ### [Equipment Reliability Intelligence & MLOps Platform](https://github.com/sravasti12/Equipment-Reliability-Intelligence-MLOps-Platform)
 An educational, reproducible predictive-maintenance platform exploring remaining-useful-life estimation, survival analysis, anomaly detection, uncertainty quantification, explainability, and maintenance-policy backtesting. Includes NASA C-MAPSS workflows, synthetic fleet data, and MLflow experiment tracking.
@@ -63,6 +75,8 @@ Contributed documentation and Python fixture validation for distinguishing integ
 **AI/ML:** scikit-learn, XGBoost, PyTorch, SHAP, MLflow
 
 **LLM applications:** LangGraph, LangChain, RAG, ChromaDB
+
+**Security & identity:** OAuth 2.0, OIDC, JWT, MCP, OPA/Rego
 
 **Backend & data:** FastAPI, Pydantic, MongoDB, SQLite, SQLAlchemy, NetworkX
 
