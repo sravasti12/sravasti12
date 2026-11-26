@@ -66,6 +66,17 @@ Contributed documentation and Python fixture validation for distinguishing integ
 - Updated a time-series fixture and the Unreleased changelog.
 - Verified that an integer value supplied where a float was expected is reported as a type mismatch.
 
+### [GianlucaBave/murmury — PR #151](https://github.com/GianlucaBave/murmury/pull/151) · **Merged**
+
+Added pytest coverage for file-reader selection and document prompt formatting in Murmury's material-loading workflow.
+
+- Tested uppercase and mixed-case DOCX/PPTX extensions, Markdown, CSV, and extensionless text files.
+- Verified document ordering, source-tag formatting, empty inputs, and warning behavior.
+- Added regression coverage documenting the current handling of filenames containing quotation marks.
+- Added 32 tests in the targeted test module; the PR reported 549 passing tests across the repository suite. The maintainer subsequently confirmed 548 passing tests on macOS against main.
+
+**Technologies:** Python, pytest, test parametrization, monkeypatching
+
 ---
 
 ## Tools & technologies
